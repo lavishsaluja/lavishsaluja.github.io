@@ -1,2 +1,2 @@
-# lavishsaluja.github.io
-website
+### lavishsaluja.github.io
+personal website code repository.

@@ -1,106 +1,195 @@
-body {
-  font-family: Helvetica;
-  font-size: 13px;
-}
-
-#menu {
-  float: right;
-  margin-top: 30px;
-  margin-right: 20px;
-  text-align: right;
-  width: 150px;
-  font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
-}
-
-#menu .title {
-}
-
-#menu ul {
-  list-style-type: none;
-  margin: 0;
+html {
   padding: 0;
+  margin: 0;
+  color: #555;
+  font-family: "SF Mono Regular", "Source Code Pro", "Inconsolata", "Monaco", monospace;
+  font-size: 12px;
 }
 
-#menu li {
+a:hover,
+a:visited,
+a:active,
+a:link {
+  color: inherit;
+  text-decoration: inherit;
 }
 
-#menu li a {
-  display: inline-block;
-  color: #0864c7;
+h1 {
+  font-weight: 100;
+  font-size: 3em;
+  text-align: center;
+  width: auto;
 }
 
-#left {
-  height: 1px;
-  float: left;
+h2 {
+  font-weight: 600;
+  font-size: 1em;
+  text-align: center;
+  width: auto;
+  display: inline;
+  color: #99f;
+}
+
+p {
   display: block;
-  min-width: 0;
-  overflow: hidden;
-  width: 200px;
-  margin: 0;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.blinking-cursor {
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+from, to {
+  color: transparent;
+}
+50% {
+  color: #99f;
+}
+}
+
+@-moz-keyframes blink {
+from, to {
+  color: transparent;
+}
+50% {
+  color: #99f;
+}
+}
+
+@-webkit-keyframes "blink" {
+from, to {
+  color: transparent;
+}
+50% {
+  color: #99f;
+}
+}
+
+@-ms-keyframes "blink" {
+from, to {
+  color: transparent;
+}
+50% {
+  color: #99f;
+}
+}
+
+@-o-keyframes "blink" {
+from, to {
+  color: transparent;
+}
+50% {
+  color: #99f;
+}
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  font-size: 1.2em;
+  padding: 2em;
+  line-height: 1.8em;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navigation {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#navigation ul {
   padding: 0;
-}
-
-#content {
-  margin-top: 15px;
-  float: left;
-  width: 500px;
-}
-
-#content h1, #content h2, #content h3 {
-  font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-#content h2 {
-  margin-top: 2em;
-}
-
-#content .byline, #content .byline a, #content .note {
-  font-size: 10px;
-  color: #aaa;
-}
-
-#content p, #content ul {
-  color: #333;
-  line-height: 18px;
-}
-
-#content sup.note {
+#navigation ul li {
   display: inline-block;
-  margin-top: -5px;
+  padding: .4em;
 }
 
-#content p.notop {
-  margin-top: 0;
+#navigation ul li:hover {
+  color: #99f;
 }
 
-#content .thanks {
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 1px solid #eee;
-  margin-bottom: 4em;
-  font-size: smaller;
-  color: #777;
+#home a:link,
+#home a:hover,
+#home a:active,
+#home a:visited {
+  color: white;
+  padding: .2em;
 }
 
-#content .thanks a {
-  color: #777;
+#home a:hover {
+  opacity: 0.6;
 }
 
-#content li {
-  margin-bottom: 0.7em;
+#twitter {
+  background-color: #00acee !important;
+  color: #000 !important;
 }
 
-.post + .post {
-  margin-top: 50px;
+#stackoverflow {
+  background-color: #ef8236 !important;
+  color: #fff !important;
 }
 
-sup, sub {
-  vertical-align: baseline;
-  position: relative;
-  top: -0.4em;
-}
-sub { 
-  top: 0.4em; 
+#bits-pilani {
+  background-color: #3b5998 !important;
+  color: #fff !important;
 }
 
+#playment {
+  background-color: #4398A4 !important;
+  color: #fff !important;
+}
+
+#discovr {
+  background-color: #7f1ae5 !important;
+  color: #fff !important;
+}
+
+#email {
+  background-color: #D44638 !important;
+  color: #fff !important;
+}
+
+#github {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+#linkedin {
+  background-color: #0e76a8 !important;
+  color: #fff !important;
+}
+
+#maryland {
+background-color: #e03a3e;
+color: #fff !important;
+}
+
+#quest {
+background-color: #5e2b3c;
+color: #fff !important;
+}

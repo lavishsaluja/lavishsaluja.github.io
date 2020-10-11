@@ -46,54 +46,7 @@ p {
   animation: 1s blink step-end infinite;
 }
 
-@keyframes "blink" {
-from, to {
-  color: transparent;
-}
-50% {
-  color: #99f;
-}
-}
 
-@-moz-keyframes blink {
-from, to {
-  color: transparent;
-}
-50% {
-  color: #99f;
-}
-}
-
-@-webkit-keyframes "blink" {
-from, to {
-  color: transparent;
-}
-50% {
-  color: #99f;
-}
-}
-
-@-ms-keyframes "blink" {
-from, to {
-  color: transparent;
-}
-50% {
-  color: #99f;
-}
-}
-
-@-o-keyframes "blink" {
-from, to {
-  color: transparent;
-}
-50% {
-  color: #99f;
-}
-}
-
-.aligncenter {
-  text-align: center;
-}
 
 .container {
   margin-left: auto;

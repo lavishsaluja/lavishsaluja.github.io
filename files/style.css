@@ -144,18 +144,28 @@ from, to {
   opacity: 0.6;
 }
 
+#instagram {
+  background-color: #C13584 !important;
+  color: #fff !important;
+}
+
 #twitter {
   background-color: #00acee !important;
-  color: #000 !important;
+  color: #fff !important;
 }
 
 #stackoverflow {
-  background-color: #ef8236 !important;
+  background-color: #f48024 !important;
   color: #fff !important;
 }
 
 #bits-pilani {
-  background-color: #3b5998 !important;
+  background-color: #0000ff !important;
+  color: #fff !important;
+}
+
+#cred-club {
+  background-color: #272b2d !important;
   color: #fff !important;
 }
 

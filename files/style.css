@@ -1,0 +1,205 @@
+html {
+  padding: 0;
+  margin: 0;
+  color: #555;
+  font-family: "SF Mono Regular", "Source Code Pro", "Inconsolata", "Monaco", monospace;
+  font-size: 12px;
+}
+
+a:hover,
+a:visited,
+a:active,
+a:link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 3em;
+  text-align: center;
+  width: auto;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1em;
+  text-align: center;
+  width: auto;
+  display: inline;
+  color: #99f;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.blinking-cursor {
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+from, to {
+  color: transparent;
+}
+50% {
+  color: #99f;
+}
+}
+
+@-moz-keyframes blink {
+from, to {
+  color: transparent;
+}
+50% {
+  color: #99f;
+}
+}
+
+@-webkit-keyframes "blink" {
+from, to {
+  color: transparent;
+}
+50% {
+  color: #99f;
+}
+}
+
+@-ms-keyframes "blink" {
+from, to {
+  color: transparent;
+}
+50% {
+  color: #99f;
+}
+}
+
+@-o-keyframes "blink" {
+from, to {
+  color: transparent;
+}
+50% {
+  color: #99f;
+}
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  font-size: 1.2em;
+  padding: 2em;
+  line-height: 1.8em;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navigation {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#navigation ul {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#navigation ul li {
+  display: inline-block;
+  padding: .4em;
+}
+
+#navigation ul li:hover {
+  color: #99f;
+}
+
+#home a:link,
+#home a:hover,
+#home a:active,
+#home a:visited {
+  color: white;
+  padding: .2em;
+}
+
+#home a:hover {
+  opacity: 0.6;
+}
+
+#instagram {
+  background-color: #C13584 !important;
+  color: #fff !important;
+}
+
+#twitter {
+  background-color: #00acee !important;
+  color: #fff !important;
+}
+
+#stackoverflow {
+  background-color: #f48024 !important;
+  color: #fff !important;
+}
+
+#bits-pilani {
+  background-color: #0000ff !important;
+  color: #fff !important;
+}
+
+#cred-club {
+  background-color: #272b2d !important;
+  color: #fff !important;
+}
+
+#playment {
+  background-color: #4398A4 !important;
+  color: #fff !important;
+}
+
+#discovr {
+  background-color: #7f1ae5 !important;
+  color: #fff !important;
+}
+
+#email {
+  background-color: #D44638 !important;
+  color: #fff !important;
+}
+
+#github {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+#linkedin {
+  background-color: #0e76a8 !important;
+  color: #fff !important;
+}
+
+#maryland {
+background-color: #e03a3e;
+color: #fff !important;
+}
+
+#quest {
+background-color: #5e2b3c;
+color: #fff !important;
+}
